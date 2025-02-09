@@ -35,6 +35,8 @@ application {
     applicationDefaultJvmArgs = listOf(
         "--add-modules=jdk.incubator.vector",
         "--enable-preview"
+        // this kill it!
+        // --enable-native-access=ALL-UNNAMED
     )
 }
 
