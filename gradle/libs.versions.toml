@@ -1,0 +1,13 @@
+[versions]
+kotlin="2.1.10"
+junit-jupiter = "5.11.4"
+lucene = "10.1.0"
+clikt = "5.0.2"
+
+[libraries]
+lucene-core = { module = "org.apache.lucene:lucene-core", version.ref = "lucene"}
+lucene-queryparser = { module = "org.apache.lucene:lucene-queryparser", version.ref = "lucene" }
+clikt = { module = "com.github.ajalt.clikt:clikt", version.ref = "clikt" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
